@@ -63,10 +63,16 @@ class AddMovieFragment : Fragment() {
 //            textView_movies.text = stringBuilder.toString()
        // })
             buttonAdd.setOnClickListener {
-
-                val movie = Movie(addName.text.toString(), addDirector.text.toString(),
+                var movie: Movie
+                movie = Movie(addName.text.toString(), addDirector.text.toString(),
                     addNote.text.toString(),addGrade.text.toString())
                 viewModel.addMovies(movie)
+                //movie = Movie("", "", "","")
+                addName.text.clear()
+                addDirector.text.clear()
+                addNote.text.clear()
+                addGrade.text.clear()
+
                 getActivity()?.onBackPressed()
 
     }

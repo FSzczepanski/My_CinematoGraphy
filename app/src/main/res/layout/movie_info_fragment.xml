@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".ui.MovieInfoFragment">
+
+    <ImageView
+        android:id="@+id/icons"
+        android:src="@drawable/i1"
+        android:layout_width="170dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="170dp"/>
+
+    <View
+        android:id="@+id/linia"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_below="@id/icons"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="33dp"
+        android:background="@color/colorT" />
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/directors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/names"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="director" />
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/directors"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="note" />
+
+    <TextView
+        android:id="@+id/grades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notes"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="grade" />
+
+    <Button
+        android:id="@+id/buton_add_movie"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="270dp"/>
+
+</RelativeLayout>

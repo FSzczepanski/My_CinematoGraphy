@@ -40,7 +40,7 @@ class GridViewAdapter(var context: Context, var arrayList: ArrayList<Movie>)
 
         val r = Random.nextInt(0,4)
 
-        icons.setImageResource(R.drawable.i1)
+        icons.setImageResource(list[r])
         names.text = listItem.name
     //    directors.text = listItem.director
      //   notes.text = listItem.note
