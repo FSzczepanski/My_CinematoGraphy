@@ -8,4 +8,5 @@ class MovieInfoViewModel(private val movieRepository: MovieRepository) : ViewMod
     fun getMovies() = movieRepository.getMovies()
 
     fun addMovies(movie: Movie) = movieRepository.addMovie(movie)
+    fun removeMovies(movie: Movie) = movieRepository.removeMovie(movie)
 }

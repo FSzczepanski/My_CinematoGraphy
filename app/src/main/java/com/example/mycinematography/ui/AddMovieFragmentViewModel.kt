@@ -9,5 +9,6 @@ class AddMovieFragmentViewModel(private val movieRepository: MovieRepository)
     fun getMovies() = movieRepository.getMovies()
 
     fun addMovies(movie: Movie) = movieRepository.addMovie(movie)
+    fun removeMovies(movie: Movie) = movieRepository.removeMovie(movie)
 
 }

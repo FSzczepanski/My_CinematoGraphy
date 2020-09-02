@@ -6,6 +6,9 @@ class MovieRepository private constructor(private val movieDao:FakeMovieDao) {
         movieDao.addMovie(movie)
     }
 
+    fun removeMovie(movie: Movie){
+        movieDao.removeMovie(movie)
+    }
     fun getMovies() = movieDao.getMovies()
 
     companion object {

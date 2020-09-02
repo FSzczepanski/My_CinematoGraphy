@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() , AdapterView.OnItemClickListener{
     private var arrayList:ArrayList<com.example.mycinematography.data.Movie> ? =null
     private var gridView:GridView ? = null
     private var gridAdapter:GridViewAdapter ? =null
+    private var itemData:String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,7 +69,12 @@ class MainActivity : AppCompatActivity() , AdapterView.OnItemClickListener{
         var movieInfoFragment : MovieInfoFragment = MovieInfoFragment()
 
         //Toast.makeText(applicationContext, "xd", Toast.LENGTH_LONG).show()
+        val args = Bundle()
+        //args.putInt("position",position)
+        itemData = arrayList?.get(position).toString()
 
+        args.putString("itemData", itemData)
+        movieInfoFragment.setArguments(args)
         supportFragmentManager.beginTransaction().addToBackStack(null).add(R.id.container,
             movieInfoFragment).commit()
     }

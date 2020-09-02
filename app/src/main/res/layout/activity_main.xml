@@ -56,13 +56,14 @@
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/actor" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buton_add_movie"
         android:layout_width="104dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="280dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/ic_add_black_24dp"
         android:text="add new" />
 
 

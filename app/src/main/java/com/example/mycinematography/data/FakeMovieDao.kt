@@ -16,5 +16,9 @@ class FakeMovieDao {
         movies.value = moviesList
     }
 
+    fun removeMovie(movie: Movie){
+        moviesList.remove(movie)
+    }
+
     fun getMovies() = movies as LiveData<List<Movie>>
 }
