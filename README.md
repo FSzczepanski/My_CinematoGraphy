@@ -11,8 +11,8 @@ My first kotlin app
 
 
 ## Screenshots
-![mycinema2](https://user-images.githubusercontent.com/61236736/92029681-32072e80-ed66-11ea-9163-25928d3de5d1.jpg)
+![mycinnn1](https://user-images.githubusercontent.com/61236736/92029964-a5a93b80-ed66-11ea-8e5f-2acd131095c5.jpg)
 
-![mycinema3](https://user-images.githubusercontent.com/61236736/92029687-33385b80-ed66-11ea-902e-bebc262dcfca.jpg)
+![mycinnn2](https://user-images.githubusercontent.com/61236736/92029969-a641d200-ed66-11ea-9da3-8f1cbfc4b6d5.jpg)
 
-![mycinema1](https://user-images.githubusercontent.com/61236736/92029688-33385b80-ed66-11ea-8cb2-3e8b44b4fa27.jpg)
+![mycinn3](https://user-images.githubusercontent.com/61236736/92029968-a641d200-ed66-11ea-997f-17d2dc49a36a.jpg)
