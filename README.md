@@ -5,9 +5,9 @@ My first kotlin app
 
 ### My_CinematoGraphy is:
 * made to practice UI components (grid view)
-* made to practice **MVVM approach**
+* made to practice **MVVM approach** with Room
 * Written in **Kotlin**
-* Fully by **me**
+
 
 
 ## Screenshots
